@@ -1,0 +1,13 @@
+# Build trees of upstream projects (each is its own git repo upstream).
+# We document the process in README.md instead of vendoring sources.
+hyprbuild/
+
+# Claude Code per-project state
+.claude/
+CLAUDE.md
+
+# Editor and OS detritus
+.vscode/
+.idea/
+*.swp
+.DS_Store
